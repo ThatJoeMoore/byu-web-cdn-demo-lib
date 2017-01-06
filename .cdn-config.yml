@@ -1,0 +1,9 @@
+---
+name: CDN Demo Library
+description: You shouln't ever actually depend on this incredibly undependable library.
+resources:
+  - demo.js
+  - src: included/**
+    dest: relocated/
+docs: https://github.com/ThatJoeMoore/byu-web-cdn-demo-lib
+
