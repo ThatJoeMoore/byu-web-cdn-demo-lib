@@ -4,8 +4,9 @@ description: You shouldn't ever actually depend on this incredibly undependable 
 resources:
   - demo.js
   - src: included/**
-#    dest: relocated/
+    dest: relocated/
 entrypoints:
   demo.js: 'Main Entrypoint'
+  relocated/test-styles.css: 'Styles!'
 docs: https://github.com/ThatJoeMoore/byu-web-cdn-demo-lib
 
