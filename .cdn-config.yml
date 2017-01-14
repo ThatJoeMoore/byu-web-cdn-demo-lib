@@ -3,7 +3,7 @@ name: CDN Demo Library
 description: You shouldn't ever actually depend on this incredibly undependable library.
 resources:
   - demo.js
-#  - src: included/**
+  - src: included/**
 #    dest: relocated/
 entrypoints:
   demo.js: 'Main Entrypoint'
