@@ -18,6 +18,8 @@ jobs:
       - run: |
           mkdir -p /tmp/artifacts
           cp -R demo.js included excluded /tmp/artifacts
+          ls .
+          ls /tmp/artifacts
 
       - store_artifacts:
           path: /tmp/artifacts
