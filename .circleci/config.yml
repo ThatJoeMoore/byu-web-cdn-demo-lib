@@ -15,4 +15,11 @@ jobs:
       - checkout
 
       - run: echo "I'm doing stuff!!"
+      - run: |
+          mkdir -p /tmp/artifacts
+          cp -R ./*.js included excluded /tmp/artifacts
+
+      - store_artifacts:
+          path: /tmp/artifacts
+          destination: artifact-file
       
