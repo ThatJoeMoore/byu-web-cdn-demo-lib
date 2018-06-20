@@ -2,11 +2,6 @@
 name: CDN Demo Library
 description: You shouldn't ever actually depend on this incredibly undependable library.
 resources:
-  - demo.js
-  - src: included/**
-    dest: relocated/
-entrypoints:
-  demo.js: 'Main Entrypoint'
-  relocated/test-styles.css: 'Styles!'
+  - ./**
 docs: https://github.com/ThatJoeMoore/byu-web-cdn-demo-lib
 
